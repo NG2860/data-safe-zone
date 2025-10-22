@@ -7,7 +7,7 @@ Dữ liệu được xây dựng dựa trên thông tin công khai về các v�
 
 ---
 
-## 📁 Cấu trúc Dữ liệu
+##  Cấu trúc Dữ liệu
 
 Tệp `historical_breach_dataset.csv` chứa các cột sau:
 
@@ -36,7 +36,7 @@ Bộ dữ liệu này **không nhằm mục đích phản ánh chính xác tuy�
 
 ---
 
-## 🚀 Cách sử dụng
+## Cách sử dụng
 
 Bạn có thể sử dụng bộ dữ liệu này với script Python trong repository  
 **`Privacy-Risk-Score-Model`** để tái tạo lại các phân tích và biểu đồ.
@@ -53,6 +53,7 @@ df = pd.read_csv("historical_breach_dataset.csv")
 print(df.head())
 
 # Tính điểm PRS trung bình
-print(df["PrivacyRiskScore"].mean())
+print(df["PrivacyRiskScore"].mean()) 
+
 
 
